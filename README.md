@@ -1,16 +1,22 @@
-# clima
 
-A new Flutter project.
 
-## Getting Started
+✨ Flutter Weather App (Clima) with GetX & Push Notifications
+✅ Features:
+🌦 Weather API Integration
+📍 Fetch Current Location
+🔔 Push Notification when Temperature > 30°C
+📅 Daily Weather Report
+📆 5-Day Weather Forecast
+🎯 GetX for State Management
+🏗 MVC Architecture Implemented
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+📁 Project Structure (MVC Architecture)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+│── configs/               # Configuration files (e.g., constants, colors)
+│── controllers/           # GetX Controllers
+│── models/                # Data Models
+│── views/                 # UI Screens
+│── services/              # API & Utility Services
+│── main.dart              # Entry Point
